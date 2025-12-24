@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> MUSIC BITES-DAPKVSTB </title> 
+<title> Music bites-DAPKVSTB </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MusicBites — Neon Search DJ</title>
@@ -34,9 +34,33 @@ body{
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/* New Image Styles for Logo and Banner */
+.channel-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto 0 auto;
+  display: block;
+  border: 4px solid var(--neon2);
+  box-shadow: 0 0 15px var(--neon2), 0 0 30px rgba(255, 0, 170, 0.4);
+}
+
+.channel-banner {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 30px auto 10px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px var(--neon1);
+  border: 1px solid rgba(0, 234, 255, 0.5);
+}
+
 .header h1{
   font-size: 40px; /* Bigger heading */
-  margin: 10px 0;
+  margin: 10px 0 0 0; /* Adjusted margin to be closer to the logo */
   /* Neon Text Effect */
   color: var(--text);
   text-shadow: 
@@ -189,9 +213,11 @@ footer{
 <body>
 
 <div class="header">
+  <img src="1000003346.jpg" alt="MusicBites Logo" class="channel-logo">
   <h1>MusicBites</h1>
   <p>Neon search DJ • Shorts & videos • Keyboard Music Highlight</p>
   <a href="https://www.youtube.com/@musicbites-dapkvstb" target="_blank" class="channel-link">Visit Channel</a>
+  <img src="1000003347.jpg" alt="Rhythm Rewind Channel Banner" class="channel-banner">
 </div>
 
 <div class="search-wrap">
@@ -201,6 +227,12 @@ footer{
 
 <h3>&#x266c; All Videos & Shorts</h3>
 <div class="grid" id="videolist">
+
+  <div class="card" data-title="Padayappa keyboard cover" data-link="https://www.youtube.com/watch?v=u47bQL1pm7I">
+    <img src="https://img.youtube.com/vi/u47bQL1pm7I/hqdefault.jpg" alt="Padayappa keyboard cover thumbnail">
+    <p>Padayappa keyboard cover (Notes in description)</p>
+  </div>
+
   <div class="card" data-title="Vasseegara Keyboard Cover" data-link="https://www.youtube.com/watch?v=gEhupNrt2_Y">
     <img src="https://img.youtube.com/vi/gEhupNrt2_Y/hqdefault.jpg" alt="Vasseegara Keyboard Cover thumbnail">
     <p>Vasseegara keyboard cover — Keyboard Cover</p>
@@ -266,17 +298,17 @@ footer{
     <p>Kokki bgm keyboard cover</p>
   </div>
 
-  <div class="card" data-title="Oorum Blood Keyboard Cover" data-link="https://www.youtube.com/shorts/FEuwBumzEo4?feature=shared">
+  <div class="card" data-title="Oorum Blood Keyboard Cover" data-link="https://www.youtube.com/shorts/FEuwBumzEo4">
     <img src="https://img.youtube.com/vi/FEuwBumzEo4/hqdefault.jpg" alt="Oorum Blood Keyboard Cover thumbnail">
     <p>Oorum Blood Keyboard Cover</p>
   </div>
 
-  <div class="card" data-title="Ore Alai Ava Kalai Ava" data-link="https://www.youtube.com/shorts/AZRIMg1vn6s?feature=shared">
+  <div class="card" data-title="Ore Alai Ava Kalai Ava" data-link="https://www.youtube.com/shorts/AZRIMg1vn6s">
     <img src="https://img.youtube.com/vi/AZRIMg1vn6s/hqdefault.jpg" alt="Ore Alai Ava Kalai Ava thumbnail">
     <p>Ore Alai Ava Kalai Ava</p>
   </div>
 
-  <div class="card" data-title="Annan Na Thottena Ore Alara" data-link="https://www.youtube.com/shorts/K1PElV9iG-g?feature=shared">
+  <div class="card" data-title="Annan Na Thottena Ore Alara" data-link="https://www.youtube.com/shorts/K1PElV9iG-g">
     <img src="https://img.youtube.com/vi/K1PElV9iG-g/hqdefault.jpg" alt="Annan Na Thottena Ore Alara thumbnail">
     <p>Annan Na Thottena Ore Alara</p>
   </div>
